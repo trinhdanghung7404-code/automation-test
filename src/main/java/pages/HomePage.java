@@ -1,7 +1,9 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import utils.WaitHelper;
 
@@ -17,37 +19,48 @@ public class HomePage {
 
     public HomePage(WebDriver driver){
         this.driver = driver;
-        wait = new WaitHelper(driver);
+        this.wait = new WaitHelper(driver);
+    }
+
+    private void clickElement(By locator){
+
+        WebElement element = wait.waitForElementClickable(locator);
+
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].scrollIntoView(true);", element);
+
+        element.click();
     }
 
     private void switchToNewWindow(){
+
+        String currentWindow = driver.getWindowHandle();
+
         for(String window : driver.getWindowHandles()){
-            driver.switchTo().window(window);
+            if(!window.equals(currentWindow)){
+                driver.switchTo().window(window);
+                break;
+            }
         }
     }
 
     public void openLoginPage(){
-        wait.waitForElementVisible(loginBtn);
-        driver.findElement(loginBtn).click();
+        clickElement(loginBtn);
         switchToNewWindow();
     }
 
     public void openRegisterPage(){
-        wait.waitForElementVisible(registerBtn);
-        driver.findElement(registerBtn).click();
+        clickElement(registerBtn);
         switchToNewWindow();
     }
 
     public void openForgotPasswordPage(){
-        wait.waitForElementVisible(forgotpassBtn);
-        driver.findElement(forgotpassBtn).click();
+        clickElement(forgotpassBtn);
         switchToNewWindow();
     }
 
     public void openFormSubmissionPage(){
-        wait.waitForElementVisible(formsubBtn);
-        driver.findElement(formsubBtn).click();
+        clickElement(formsubBtn);
         switchToNewWindow();
     }
-
 }

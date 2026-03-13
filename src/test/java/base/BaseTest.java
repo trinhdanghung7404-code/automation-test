@@ -1,5 +1,7 @@
 package base;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -19,7 +21,11 @@ public class BaseTest {
 
         System.out.println("SETUP RUNNING");
 
-        driver.set(DriverFactory.initDriver());
+        WebDriver webDriver = DriverFactory.initDriver();
+
+        driver.set(webDriver);
+        
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         getDriver().get("https://qabrains.com/practice-site");
     }
