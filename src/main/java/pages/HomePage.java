@@ -17,7 +17,7 @@ public class HomePage {
     }
 
     public void openLoginPage(){
-        driver.get(baseUrl + "/login");
+        driver.get(baseUrl);
     }
 
     public void openRegisterPage(){
