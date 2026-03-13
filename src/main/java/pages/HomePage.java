@@ -23,13 +23,19 @@ public class HomePage {
     }
 
     private void clickElement(By locator){
-
+    
         WebElement element = wait.waitForElementClickable(locator);
-
+    
         ((JavascriptExecutor) driver)
-                .executeScript("arguments[0].scrollIntoView(true);", element);
-
-        element.click();
+                .executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+    
+        try{
+            element.click();
+        }
+        catch(Exception e){
+            ((JavascriptExecutor) driver)
+                    .executeScript("arguments[0].click();", element);
+        }
     }
 
     private void switchToNewWindow(){
