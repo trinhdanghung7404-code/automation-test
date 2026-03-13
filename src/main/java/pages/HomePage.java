@@ -29,6 +29,6 @@ public class HomePage {
     }
 
     public void openFormSubmissionPage(){
-        driver.get(baseUrl + "/form");
+        driver.get(baseUrl + "/form-submission");
     }
 }
