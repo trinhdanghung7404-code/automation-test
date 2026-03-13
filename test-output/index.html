@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PracticeSuite" class="navigator-link">
+              <span class="suite-name border-failed">PracticeSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PracticeSuite" class="navigator-link ">
+                    <span>E:\eclipse-workspace\automation-test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PracticeSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PracticeSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PracticeSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PracticeSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PracticeSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PracticeSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 2 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PracticeSuite" class="hide-methods failed suite-PracticeSuite"> (hide)</a> <!-- hide-methods failed suite-PracticeSuite -->
+                      <a href="#" panel-name="suite-PracticeSuite" class="show-methods failed suite-PracticeSuite"> (show)</a> <!-- show-methods failed suite-PracticeSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-PracticeSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_18, hung, test@test.com, 1.24112E+25, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, V...)">formsubInvalid(TC_FORMSUB_18, hung, test@test.com, 1.24112E+25, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, V...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_20, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">formsubInvalid(TC_FORMSUB_20, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PracticeSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PracticeSuite" class="hide-methods passed suite-PracticeSuite"> (hide)</a> <!-- hide-methods passed suite-PracticeSuite -->
+                      <a href="#" panel-name="suite-PracticeSuite" class="show-methods passed suite-PracticeSuite"> (show)</a> <!-- show-methods passed suite-PracticeSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PracticeSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_22,  , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Viet...)">formsubInvalid(TC_FORMSUB_22,  , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Viet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_11, hung, test@test.com, , , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIE...)">formsubInvalid(TC_FORMSUB_11, hung, test@test.com, , , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIE...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_17, hung, test@test.com, 1234567890, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)">formsubInvalid(TC_FORMSUB_17, hung, test@test.com, 1234567890, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_14, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, , Vietna...)">formsubInvalid(TC_FORMSUB_14, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, , Vietna...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_13, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, , Pasta, Viet...)">formsubInvalid(TC_FORMSUB_13, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, , Pasta, Viet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_15, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, ,...)">formsubInvalid(TC_FORMSUB_15, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_10, hung, , 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD...)">formsubInvalid(TC_FORMSUB_10, hung, , 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_12, hung, test@test.com, 11111111111, , , Red, Pasta, Vietnam, FIELD_FILEPATH, Upload Fil...)">formsubInvalid(TC_FORMSUB_12, hung, test@test.com, 11111111111, , , Red, Pasta, Vietnam, FIELD_FILEPATH, Upload Fil...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_16, hung, test@test.com, 1, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FI...)">formsubInvalid(TC_FORMSUB_16, hung, test@test.com, 1, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_19, hung, testtest.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)">formsubInvalid(TC_FORMSUB_19, hung, testtest.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_09, , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">formsubInvalid(TC_FORMSUB_09, , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubInvalid(TC_FORMSUB_21, hung, @test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">formsubInvalid(TC_FORMSUB_21, hung, @test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_01, hung, test@test.com, 11111111111, 3/12/26, C:\Users\hung\Downloads\Book1.xlsx, Red, P...)">formsubValid(TC_FORMSUB_01, hung, test@test.com, 11111111111, 3/12/26, C:\Users\hung\Downloads\Book1.xlsx, Red, P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_02, hung, test@test, 11111111111, 3/13/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta...)">formsubValid(TC_FORMSUB_02, hung, test@test, 11111111111, 3/13/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_08, hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@, test@test, 11111111111,...)">formsubValid(TC_FORMSUB_08, hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@, test@test, 11111111111,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_06, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)">formsubValid(TC_FORMSUB_06, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_04, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Blue, Pizza, ...)">formsubValid(TC_FORMSUB_04, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Blue, Pizza, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_03, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)">formsubValid(TC_FORMSUB_03, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_05, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Green, Pasta,...)">formsubValid(TC_FORMSUB_05, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Green, Pasta,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PracticeSuite" title="tests.FormSubTest" class="method navigator-link" hash-for-method="formsubValid(TC_FORMSUB_07, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">formsubValid(TC_FORMSUB_07, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PracticeSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PracticeSuite" class="panel PracticeSuite">
+          <div class="suite-PracticeSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.FormSubTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_18, hung, test@test.com, 1.24112E+25, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, V...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_18, hung, test@test.com, 1.24112E+25, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, V...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_18,hung,test@test.com,1.24112E+25,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_CONTACT,Contact must be at most 15 characters)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Contact must be at most 15 characters] but found [Only numbers are allowed]
+	at tests.FormSubTest.formsubInvalid(FormSubTest.java:180)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_20, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_20, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_20,hung,test@test,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_EMAIL,Email must be a valid email)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;email&apos;]/ancestor::div[contains(@class,&apos;form-field-group&apos;)]/following-sibling::p (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hung\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62280}, goog:processID: 22852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62280/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5f52c13c0f2534b5cea066e05da93e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.WaitHelper.waitForElementVisible(WaitHelper.java:23)
+	at pages.FormSubPage.getEmailError(FormSubPage.java:148)
+	at tests.FormSubTest.formsubInvalid(FormSubTest.java:150)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PracticeSuite-class-failed -->
+          <div class="suite-PracticeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FormSubTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_22,  , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Viet...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_22,  , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Viet...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_22, ,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_NAME,Name is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_11, hung, test@test.com, , , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIE...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_11, hung, test@test.com, , , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIE...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_11,hung,test@test.com,,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_CONTACT,Contact is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_17, hung, test@test.com, 1234567890, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_17, hung, test@test.com, 1234567890, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_17,hung,test@test.com,1234567890,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_CONTACT,Contact must be at least 11 characters)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_14, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, , Vietna...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_14, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, , Vietna...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_14,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,,Vietnam,FIELD_FOOD,Food is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_13, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, , Pasta, Viet...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_13, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, , Pasta, Viet...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_13,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,,Pasta,Vietnam,FIELD_COLOR,Color is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_15, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, ,...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_15, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, ,...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_15,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,,FIELD_COUNTRY,Country is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_10, hung, , 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_10, hung, , 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_10,hung,,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_EMAIL,Email is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_12, hung, test@test.com, 11111111111, , , Red, Pasta, Vietnam, FIELD_FILEPATH, Upload Fil...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_12, hung, test@test.com, 11111111111, , , Red, Pasta, Vietnam, FIELD_FILEPATH, Upload Fil...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_12,hung,test@test.com,11111111111,,,Red,Pasta,Vietnam,FIELD_FILEPATH,Upload File is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_16, hung, test@test.com, 1, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FI...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_16, hung, test@test.com, 1, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FI...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_16,hung,test@test.com,1,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_CONTACT,Contact must be at least 11 characters)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_19, hung, testtest.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_19, hung, testtest.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_19,hung,testtest.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_EMAIL,Email must be a valid email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_09, , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_09, , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_09,,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_NAME,Name is a required field)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubInvalid(TC_FORMSUB_21, hung, @test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">
+                  </a> <!-- formsubInvalid(TC_FORMSUB_21, hung, @test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...) -->
+                  <span class="method-name">formsubInvalid</span>
+                  <span class="parameters">(TC_FORMSUB_21,hung,@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam,FIELD_EMAIL,Email must be a valid email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_01, hung, test@test.com, 11111111111, 3/12/26, C:\Users\hung\Downloads\Book1.xlsx, Red, P...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_01, hung, test@test.com, 11111111111, 3/12/26, C:\Users\hung\Downloads\Book1.xlsx, Red, P...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_01,hung,test@test.com,11111111111,3/12/26,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_02, hung, test@test, 11111111111, 3/13/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_02, hung, test@test, 11111111111, 3/13/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_02,hung,test@test,11111111111,3/13/26,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta, Pizza,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_08, hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@, test@test, 11111111111,...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_08, hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@, test@test, 11111111111,...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_08,hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@,test@test,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_06, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_06, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_06,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta, Pizza, Burger,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_04, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Blue, Pizza, ...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_04, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Blue, Pizza, ...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_04,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Blue,Pizza,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_03, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_03, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_03,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta, Pizza,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_05, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Green, Pasta,...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_05, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Green, Pasta,...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_05,hung,test@test.com,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Green,Pasta, Burger,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="formsubValid(TC_FORMSUB_07, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)">
+                  </a> <!-- formsubValid(TC_FORMSUB_07, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...) -->
+                  <span class="method-name">formsubValid</span>
+                  <span class="parameters">(TC_FORMSUB_07,hung,test@test,11111111111,,C:\Users\hung\Downloads\Book1.xlsx,Red,Pasta,Vietnam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PracticeSuite-class-passed -->
+        </div> <!-- panel PracticeSuite -->
+        <div panel-name="test-xml-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\eclipse-workspace\automation-test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;PracticeSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.FormSubTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Tests --&gt;
+&lt;/suite&gt; &lt;!-- PracticeSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PracticeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PracticeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">formsubInvalid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">formsubValid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">formsubValid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PracticeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PracticeSuite');
+function tableData_PracticeSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'formsubInvalid')
+data.setCell(0, 2, 'tests.FormSubTest')
+data.setCell(0, 3, 12409);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'formsubValid')
+data.setCell(1, 2, 'tests.FormSubTest')
+data.setCell(1, 3, 6344);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'formsubValid')
+data.setCell(2, 2, 'tests.FormSubTest')
+data.setCell(2, 3, 5478);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'formsubValid')
+data.setCell(3, 2, 'tests.FormSubTest')
+data.setCell(3, 3, 5283);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'formsubValid')
+data.setCell(4, 2, 'tests.FormSubTest')
+data.setCell(4, 3, 5117);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'formsubValid')
+data.setCell(5, 2, 'tests.FormSubTest')
+data.setCell(5, 3, 5056);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'formsubValid')
+data.setCell(6, 2, 'tests.FormSubTest')
+data.setCell(6, 3, 4742);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'formsubValid')
+data.setCell(7, 2, 'tests.FormSubTest')
+data.setCell(7, 3, 4659);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'formsubValid')
+data.setCell(8, 2, 'tests.FormSubTest')
+data.setCell(8, 3, 4629);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'formsubInvalid')
+data.setCell(9, 2, 'tests.FormSubTest')
+data.setCell(9, 3, 4533);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'formsubInvalid')
+data.setCell(10, 2, 'tests.FormSubTest')
+data.setCell(10, 3, 4268);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'formsubInvalid')
+data.setCell(11, 2, 'tests.FormSubTest')
+data.setCell(11, 3, 4213);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'formsubInvalid')
+data.setCell(12, 2, 'tests.FormSubTest')
+data.setCell(12, 3, 3844);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'formsubInvalid')
+data.setCell(13, 2, 'tests.FormSubTest')
+data.setCell(13, 3, 2838);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'formsubInvalid')
+data.setCell(14, 2, 'tests.FormSubTest')
+data.setCell(14, 3, 2658);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'formsubInvalid')
+data.setCell(15, 2, 'tests.FormSubTest')
+data.setCell(15, 3, 2616);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'formsubInvalid')
+data.setCell(16, 2, 'tests.FormSubTest')
+data.setCell(16, 3, 2544);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'formsubInvalid')
+data.setCell(17, 2, 'tests.FormSubTest')
+data.setCell(17, 3, 2418);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'formsubInvalid')
+data.setCell(18, 2, 'tests.FormSubTest')
+data.setCell(18, 3, 2378);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'formsubInvalid')
+data.setCell(19, 2, 'tests.FormSubTest')
+data.setCell(19, 3, 2304);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'formsubInvalid')
+data.setCell(20, 2, 'tests.FormSubTest')
+data.setCell(20, 3, 2289);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'formsubInvalid')
+data.setCell(21, 2, 'tests.FormSubTest')
+data.setCell(21, 3, 2150);
+window.suiteTableData['PracticeSuite']= { tableData: data, tableDiv: 'times-div-PracticeSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-PracticeSuite">
+              </div> <!-- times-div-PracticeSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PracticeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PracticeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FormSubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_01, hung, test@test.com, 11111111111, 3/12/26, C:\Users\hung\Downloads\Book1.xlsx, Red, P...)</span>
+                <span class="method-start">5265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_02, hung, test@test, 11111111111, 3/13/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta...)</span>
+                <span class="method-start">14590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_03, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)</span>
+                <span class="method-start">23534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29025 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_04, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Blue, Pizza, ...)</span>
+                <span class="method-start">33241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_05, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Green, Pasta,...)</span>
+                <span class="method-start">41874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_06, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, P...)</span>
+                <span class="method-start">50126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">55220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_07, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</span>
+                <span class="method-start">58660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubValid(TC_FORMSUB_08, hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@, test@test, 11111111111,...)</span>
+                <span class="method-start">65196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_09, , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</span>
+                <span class="method-start">73572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">78098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_10, hung, , 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD...)</span>
+                <span class="method-start">81126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">83928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_11, hung, test@test.com, , , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIE...)</span>
+                <span class="method-start">86953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">89962 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_12, hung, test@test.com, 11111111111, , , Red, Pasta, Vietnam, FIELD_FILEPATH, Upload Fil...)</span>
+                <span class="method-start">91545 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_13, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, , Pasta, Viet...)</span>
+                <span class="method-start">99118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">101944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_14, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, , Vietna...)</span>
+                <span class="method-start">105420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_15, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, ,...)</span>
+                <span class="method-start">111540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">114279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_16, hung, test@test.com, 1, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FI...)</span>
+                <span class="method-start">121785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">124560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_17, hung, test@test.com, 1234567890, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)</span>
+                <span class="method-start">126306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">131216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">formsubInvalid(TC_FORMSUB_18, hung, test@test.com, 1.24112E+25, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, V...)</span>
+                <span class="method-start">139053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">142533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_19, hung, testtest.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vi...)</span>
+                <span class="method-start">146380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">149376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">formsubInvalid(TC_FORMSUB_20, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</span>
+                <span class="method-start">152669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">165660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_21, hung, @test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietn...)</span>
+                <span class="method-start">167418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">171705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">formsubInvalid(TC_FORMSUB_22,  , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Viet...)</span>
+                <span class="method-start">176052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">178711 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

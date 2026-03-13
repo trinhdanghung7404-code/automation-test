@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="20" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T15:12:20 ICT" name="PracticeSuite" finished-at="2026-03-13T15:15:21 ICT" duration-ms="180533">
+    <groups>
+      <group name="regression">
+        <method signature="FormSubTest.formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" name="formsubValid" class="tests.FormSubTest"/>
+        <method signature="FormSubTest.formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" name="formsubInvalid" class="tests.FormSubTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FormSubTest.formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" name="formsubValid" class="tests.FormSubTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-13T15:12:20 ICT" name="All Tests" finished-at="2026-03-13T15:15:21 ICT" duration-ms="180533">
+      <class name="tests.FormSubTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:21 ICT" name="setup" finished-at="2026-03-13T15:12:27 ICT" duration-ms="5264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:27 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:12:32 ICT" duration-ms="5283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3/12/26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:32 ICT" name="tearDown" finished-at="2026-03-13T15:12:32 ICT" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:32 ICT" name="setup" finished-at="2026-03-13T15:12:36 ICT" duration-ms="3593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:36 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:12:41 ICT" duration-ms="5117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3/13/26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta, Pizza]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:41 ICT" name="tearDown" finished-at="2026-03-13T15:12:42 ICT" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:42 ICT" name="setup" finished-at="2026-03-13T15:12:45 ICT" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:45 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:12:50 ICT" duration-ms="5478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta, Pizza]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:50 ICT" name="tearDown" finished-at="2026-03-13T15:12:51 ICT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:51 ICT" name="setup" finished-at="2026-03-13T15:12:55 ICT" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:12:55 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:13:00 ICT" duration-ms="5056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pizza]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:00 ICT" name="tearDown" finished-at="2026-03-13T15:13:00 ICT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:00 ICT" name="setup" finished-at="2026-03-13T15:13:03 ICT" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:03 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:13:08 ICT" duration-ms="4742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta, Burger]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:08 ICT" name="tearDown" finished-at="2026-03-13T15:13:08 ICT" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:08 ICT" name="setup" finished-at="2026-03-13T15:13:12 ICT" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:12 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:13:16 ICT" duration-ms="4659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta, Pizza, Burger]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:16 ICT" name="tearDown" finished-at="2026-03-13T15:13:17 ICT" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:17 ICT" name="setup" finished-at="2026-03-13T15:13:20 ICT" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:20 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:13:25 ICT" duration-ms="4629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:25 ICT" name="tearDown" finished-at="2026-03-13T15:13:25 ICT" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:25 ICT" name="setup" finished-at="2026-03-13T15:13:27 ICT" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubValid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:27 ICT" name="formsubValid" data-provider="formsubValidData" finished-at="2026-03-13T15:13:33 ICT" duration-ms="6344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:33 ICT" name="tearDown" finished-at="2026-03-13T15:13:33 ICT" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:33 ICT" name="setup" finished-at="2026-03-13T15:13:35 ICT" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:35 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:13:39 ICT" duration-ms="4213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_NAME]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Name is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:39 ICT" name="tearDown" finished-at="2026-03-13T15:13:39 ICT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:39 ICT" name="setup" finished-at="2026-03-13T15:13:43 ICT" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:43 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:13:45 ICT" duration-ms="2378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_EMAIL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Email is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:45 ICT" name="tearDown" finished-at="2026-03-13T15:13:45 ICT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:45 ICT" name="setup" finished-at="2026-03-13T15:13:48 ICT" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:48 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:13:51 ICT" duration-ms="2616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_CONTACT]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Contact is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:51 ICT" name="tearDown" finished-at="2026-03-13T15:13:51 ICT" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:51 ICT" name="setup" finished-at="2026-03-13T15:13:53 ICT" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:53 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:13:57 ICT" duration-ms="3844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_FILEPATH]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Upload File is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:57 ICT" name="tearDown" finished-at="2026-03-13T15:13:57 ICT" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:13:57 ICT" name="setup" finished-at="2026-03-13T15:14:01 ICT" duration-ms="3338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:01 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:03 ICT" duration-ms="2418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_COLOR]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Color is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:03 ICT" name="tearDown" finished-at="2026-03-13T15:14:03 ICT" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:03 ICT" name="setup" finished-at="2026-03-13T15:14:07 ICT" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:07 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:09 ICT" duration-ms="2150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_FOOD]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Food is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:09 ICT" name="tearDown" finished-at="2026-03-13T15:14:09 ICT" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:09 ICT" name="setup" finished-at="2026-03-13T15:14:13 ICT" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:13 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:15 ICT" duration-ms="2289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_COUNTRY]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Country is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:15 ICT" name="tearDown" finished-at="2026-03-13T15:14:16 ICT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:16 ICT" name="setup" finished-at="2026-03-13T15:14:23 ICT" duration-ms="7506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:23 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:25 ICT" duration-ms="2304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_CONTACT]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Contact must be at least 11 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:25 ICT" name="tearDown" finished-at="2026-03-13T15:14:26 ICT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:26 ICT" name="setup" finished-at="2026-03-13T15:14:28 ICT" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:28 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:32 ICT" duration-ms="4533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_CONTACT]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Contact must be at least 11 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:32 ICT" name="tearDown" finished-at="2026-03-13T15:14:33 ICT" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:33 ICT" name="setup" finished-at="2026-03-13T15:14:40 ICT" duration-ms="7837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:40 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:43 ICT" duration-ms="2838" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.24112E+25]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_CONTACT]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Contact must be at most 15 characters]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Contact must be at most 15 characters] but found [Only numbers are allowed]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Contact must be at most 15 characters] but found [Only numbers are allowed]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at tests.FormSubTest.formsubInvalid(FormSubTest.java:180)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:43 ICT" name="tearDown" finished-at="2026-03-13T15:14:44 ICT" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:44 ICT" name="setup" finished-at="2026-03-13T15:14:48 ICT" duration-ms="3847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:48 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:14:50 ICT" duration-ms="2544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testtest.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_EMAIL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Email must be a valid email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:50 ICT" name="tearDown" finished-at="2026-03-13T15:14:51 ICT" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:51 ICT" name="setup" finished-at="2026-03-13T15:14:54 ICT" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:14:54 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:15:06 ICT" duration-ms="12409" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_EMAIL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Email must be a valid email]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='email']/ancestor::div[contains(@class,'form-field-group')]/following-sibling::p (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hung\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62280}, goog:processID: 22852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62280/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5f52c13c0f2534b5cea066e05da93e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='email']/ancestor::div[contains(@class,'form-field-group')]/following-sibling::p (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hung\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62280}, goog:processID: 22852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62280/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5f52c13c0f2534b5cea066e05da93e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at utils.WaitHelper.waitForElementVisible(WaitHelper.java:23)
+at pages.FormSubPage.getEmailError(FormSubPage.java:148)
+at tests.FormSubTest.formsubInvalid(FormSubTest.java:150)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:07 ICT" name="tearDown" finished-at="2026-03-13T15:15:07 ICT" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:07 ICT" name="setup" finished-at="2026-03-13T15:15:09 ICT" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:09 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:15:13 ICT" duration-ms="4268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_EMAIL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Email must be a valid email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:13 ICT" name="tearDown" finished-at="2026-03-13T15:15:14 ICT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:14 ICT" name="setup" finished-at="2026-03-13T15:15:17 ICT" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formsubInvalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:17 ICT" name="formsubInvalid" data-provider="formsubInvalidData" finished-at="2026-03-13T15:15:20 ICT" duration-ms="2658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_FORMSUB_22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C:\Users\hung\Downloads\Book1.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pasta]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vietnam]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FIELD_NAME]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Name is a required field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormSubTest@64f981e2]" started-at="2026-03-13T15:15:20 ICT" name="tearDown" finished-at="2026-03-13T15:15:21 ICT" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormSubTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- PracticeSuite -->
+</testng-results>

@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  All Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 13 15:12:20 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>180 seconds (180533 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_18, hung, test@test.com, 1.24112E+25, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_CONTACT, Contact must be at most 15 characters</td>
+<td><div><pre>java.lang.AssertionError: expected [Contact must be at most 15 characters] but found [Only numbers are allowed]
+	at tests.FormSubTest.formsubInvalid(FormSubTest.java:180)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace951193811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace951193811'><pre>java.lang.AssertionError: expected [Contact must be at most 15 characters] but found [Only numbers are allowed]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at tests.FormSubTest.formsubInvalid(FormSubTest.java:180)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_20, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_EMAIL, Email must be a valid email</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;email&apos;]/ancestor::div[contains(@class,&apos;form-field-group&apos;)]/following-sibling::p (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hung\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62280}, goog:processID: 22852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62280/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5f52c13c0f2534b5cea066e05da93e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.WaitHelper.waitForElementVisible(WaitHelper.java:23)
+	at pages.FormSubPage.getEmailError(FormSubPage.java:148)
+	at tests.FormSubTest.formsubInvalid(FormSubTest.java:150)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2074585693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2074585693'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;email&apos;]/ancestor::div[contains(@class,&apos;form-field-group&apos;)]/following-sibling::p (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hung\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62280}, goog:processID: 22852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62280/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5f52c13c0f2534b5cea066e05da93e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.WaitHelper.waitForElementVisible(WaitHelper.java:23)
+	at pages.FormSubPage.getEmailError(FormSubPage.java:148)
+	at tests.FormSubTest.formsubInvalid(FormSubTest.java:150)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>12</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_22,  , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_NAME, Name is a required field</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_11, hung, test@test.com, , , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_CONTACT, Contact is a required field</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_01, hung, test@test.com, 11111111111, 3/12/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam</td>
+<td></td>
+<td>5</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_17, hung, test@test.com, 1234567890, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_CONTACT, Contact must be at least 11 characters</td>
+<td></td>
+<td>4</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_02, hung, test@test, 11111111111, 3/13/26, C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Pizza, Vietnam</td>
+<td></td>
+<td>5</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_08, hungggggggggggggggggggggggggggggggggggggggggggggggggggggg@@@, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam</td>
+<td></td>
+<td>6</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_14, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, , Vietnam, FIELD_FOOD, Food is a required field</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_13, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, , Pasta, Vietnam, FIELD_COLOR, Color is a required field</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_06, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Pizza, Burger, Vietnam</td>
+<td></td>
+<td>4</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_15, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, , FIELD_COUNTRY, Country is a required field</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_04, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Blue, Pizza, Vietnam</td>
+<td></td>
+<td>5</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_03, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Pizza, Vietnam</td>
+<td></td>
+<td>5</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_10, hung, , 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_EMAIL, Email is a required field</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_12, hung, test@test.com, 11111111111, , , Red, Pasta, Vietnam, FIELD_FILEPATH, Upload File is a required field</td>
+<td></td>
+<td>3</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_16, hung, test@test.com, 1, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_CONTACT, Contact must be at least 11 characters</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_19, hung, testtest.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_EMAIL, Email must be a valid email</td>
+<td></td>
+<td>2</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_05, hung, test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Green, Pasta, Burger, Vietnam</td>
+<td></td>
+<td>4</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubValid()'><b>formsubValid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_07, hung, test@test, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam</td>
+<td></td>
+<td>4</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_09, , test@test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_NAME, Name is a required field</td>
+<td></td>
+<td>4</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+<tr>
+<td title='tests.FormSubTest.formsubInvalid()'><b>formsubInvalid</b><br>Test class: tests.FormSubTest<br>Parameters: TC_FORMSUB_21, hung, @test.com, 11111111111, , C:\Users\hung\Downloads\Book1.xlsx, Red, Pasta, Vietnam, FIELD_EMAIL, Email must be a valid email</td>
+<td></td>
+<td>4</td>
+<td>tests.FormSubTest@64f981e2</td></tr>
+</table><p>
+</body>
+</html>

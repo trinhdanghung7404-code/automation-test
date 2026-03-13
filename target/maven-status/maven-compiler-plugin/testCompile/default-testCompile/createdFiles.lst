@@ -1,0 +1,6 @@
+base\BaseTest.class
+tests\RegisterTest.class
+listeners\TestListener.class
+tests\FormSubTest.class
+tests\ForgotPassTest.class
+tests\LoginTest.class
