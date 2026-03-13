@@ -1,3 +1,12 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import utils.WaitHelper;
+
 public class HomePage {
 
     WebDriver driver;
@@ -5,8 +14,8 @@ public class HomePage {
 
     By loginBtn = By.linkText("Login");
     By registerBtn = By.linkText("Register");
-    By forgotpassBtn = By.linkText("Forgot Password");
-    By formsubBtn = By.linkText("Form Submission");
+    By forgotPassBtn = By.linkText("Forgot Password");
+    By formSubmissionBtn = By.linkText("Form Submission");
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -38,10 +47,10 @@ public class HomePage {
     }
 
     public void openForgotPasswordPage(){
-        clickElement(forgotpassBtn);
+        clickElement(forgotPassBtn);
     }
 
     public void openFormSubmissionPage(){
-        clickElement(formsubBtn);
+        clickElement(formSubmissionBtn);
     }
 }
